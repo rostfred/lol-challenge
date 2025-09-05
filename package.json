@@ -1,0 +1,35 @@
+{
+  "name": "lol-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server public/data/db.json",
+    "build": "tsc --noEmit && vite build",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.85.6",
+    "@types/styled-components": "^5.1.34",
+    "axios": "^1.11.0",
+    "fuse.js": "^7.1.0",
+    "json-server": "^1.0.0-beta.3",
+    "phosphor-react": "^1.4.1",
+    "primereact": "^10.9.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.4",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}

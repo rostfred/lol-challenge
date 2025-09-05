@@ -1,0 +1,21 @@
+export default {
+	COLORS: {
+		GOLDEN: '#C89B3C',
+		GOLDEN_TEXT: '#958250',
+		WHITE: '#FFFFFF',
+		BLACK: '#000000',
+		DEEP_BLACK: '#151515',
+		RED: '#f44336',
+		ORANGE: '#ff9800',
+		GREEN: '#28a745',
+
+		GRAY_10: '#F4F5F7',
+		GRAY_50: '#898989',
+		GRAY_100: '#9F9F9F',
+		GRAY_200: '#D9D9D9',
+		GRAY_300: '#666666',
+		GRAY_400: '#3A3A3A',
+		GRAY_500: '#333333',
+		GRAY_600: '#242424',
+	},
+};
